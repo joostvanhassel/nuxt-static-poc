@@ -18,7 +18,7 @@ const {data, pending, error, refresh} = await useAsyncData(`news-${route.params.
   })
 });
 
-const article = data?.value?.at(0)!;
+const article = data?.value?.at(0);
 </script>
 
 <template>
